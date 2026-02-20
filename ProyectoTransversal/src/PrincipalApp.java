@@ -30,6 +30,7 @@ public class PrincipalApp {
 	                resultado = sumar(num1, num2);
 	                break;
 	            case 2:
+	            	resultado = restar(num1, num2);
 	                break;
 	            case 3:
 	                break;
@@ -46,7 +47,8 @@ public class PrincipalApp {
 	
 	public static double sumar(double a, double b) {
         return a + b;
-    
-
 	}
+    public static double restar(double a, double b) {
+        return a - b;
+    }
 }
