@@ -33,6 +33,7 @@ public class PrincipalApp {
 	            	resultado = restar(num1, num2);
 	                break;
 	            case 3:
+	            	resultado = multiplicar(num1, num2);
 	                break;
 	            case 4:
 	                break;
@@ -45,11 +46,13 @@ public class PrincipalApp {
 
 	}
 	
-	
 	public static double sumar(double a, double b) {
         return a + b;
 	}
     public static double restar(double a, double b) {
         return a - b;
+    }
+    public static double multiplicar(double a, double b) {
+        return a * b;
     }
 }
